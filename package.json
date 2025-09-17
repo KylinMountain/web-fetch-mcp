@@ -1,6 +1,6 @@
 {
   "name": "web-fetch-mcp-server",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
   "main": "dist/index.js",
   "type": "module",
@@ -36,6 +36,10 @@
     "tsx": "^4.16.2",
     "typescript": "^5.5.4"
   },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=18.0.0"
   }

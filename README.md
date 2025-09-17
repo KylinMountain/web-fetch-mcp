@@ -1,5 +1,7 @@
 # Web Fetch MCP Server
 
+[English](README.md) | [中文](README-zh.md)
+
 A Model Context Protocol (MCP) server that provides web content fetching, summarization, comparison, and extraction capabilities. This server transforms the original gemini-cli web-fetch tool into a standalone MCP-compliant server.
 
 ## Features

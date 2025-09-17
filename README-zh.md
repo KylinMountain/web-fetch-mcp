@@ -1,5 +1,7 @@
 # Web Fetch MCP 服务器
 
+[English](README.md) | [中文](README-zh.md)
+
 一个模型上下文协议 (MCP) 服务器，提供网页内容获取、总结、比较和提取功能。该服务器将原始的 gemini-cli web-fetch 工具转换为独立的 MCP 兼容服务器。
 
 ## 功能特性
