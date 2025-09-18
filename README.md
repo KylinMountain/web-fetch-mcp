@@ -1,5 +1,5 @@
 # Web Fetch MCP Server
-
+[English](README.md) | [中文](README-zh.md)
 [![npm version](https://badge.fury.io/js/web-fetch-mcp.svg)](https://badge.fury.io/js/web-fetch-mcp)
 
 A Model Context Protocol (MCP) server that provides web content fetching, summarization, comparison, and extraction capabilities.
