@@ -43,6 +43,7 @@ npm install -g web-fetch-mcp
   }
 }
 ```
+> 备注：如果有网络访问问题，如无法连接到Gemini，可以配置环境变量`HTTPS_PROXY`和`HTTP_PROXY`. 默认使用`gemini-2.5-flash`模型，与Gemini-CLI一致。
 
 如果您是从本地克隆运行：
 
