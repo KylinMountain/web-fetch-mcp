@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.KylinMountain/web-fetch-mcp",
+  "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/KylinMountain/web-fetch-mcp.git",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "registry_base_url": "https://registry.npmjs.org",
+      "identifier": "web-fetch-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environment_variables": [
+        {
+          "description": "Your Gemini API key for the service",
+          "is_required": true,
+          "format": "string",
+          "is_secret": true,
+          "name": "GEMINI_API_KEY"
+        },
+        {
+          "description": "Your proxy for the gemini api service",
+          "is_required": false,
+          "format": "string",
+          "is_secret": false,
+          "name": "HTTP_PROXY"
+        },
+        {
+          "description": "Your proxy for the gemini api service",
+          "is_required": false,
+          "format": "string",
+          "is_secret": false,
+          "name": "HTTPS_PROXY"
+        }
+      ]
+    }
+  ]
+}

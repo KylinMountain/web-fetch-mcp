@@ -1,6 +1,7 @@
 {
   "name": "web-fetch-mcp",
-  "version": "0.1.0",
+  "mcpName": "io.github.KylinMountain/web-fetch-mcp",
+  "version": "0.1.1",
   "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
   "main": "dist/index.js",
   "type": "module",
