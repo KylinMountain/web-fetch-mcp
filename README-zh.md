@@ -20,7 +20,7 @@
 ```bash
 # 克隆仓库
 git clone <repository-url>
-cd web-fetch-mcp-server
+cd web-fetch-mcp
 
 # 安装依赖
 npm install
@@ -38,7 +38,7 @@ npm install -g .
 
 ```json
 {
-  "name": "web-fetch-mcp-server",
+  "name": "web-fetch-mcp",
   "version": "1.0.0",
   "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
   "command": "node",
@@ -114,7 +114,7 @@ node dist/index.js
   "mcpServers": {
     "web-fetch": {
       "command": "node",
-      "args": ["/path/to/web-fetch-mcp-server/dist/index.js"]
+      "args": ["/path/to/web-fetch-mcp/dist/index.js"]
     }
   }
 }

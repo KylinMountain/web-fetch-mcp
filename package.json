@@ -1,11 +1,11 @@
 {
-  "name": "web-fetch-mcp-server",
+  "name": "web-fetch-mcp",
   "version": "0.1.0",
   "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "web-fetch-mcp-server": "dist/index.js"
+    "web-fetch-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

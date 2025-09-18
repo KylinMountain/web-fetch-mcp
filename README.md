@@ -20,7 +20,7 @@ A Model Context Protocol (MCP) server that provides web content fetching, summar
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd web-fetch-mcp-server
+cd web-fetch-mcp
 
 # Install dependencies
 npm install
@@ -38,7 +38,7 @@ The server includes a `mcp.json` configuration file that defines the MCP server 
 
 ```json
 {
-  "name": "web-fetch-mcp-server",
+  "name": "web-fetch-mcp",
   "version": "1.0.0",
   "description": "MCP server for web content fetching, summarizing, comparing, and extracting information",
   "command": "node",
@@ -114,7 +114,7 @@ To use this server with Claude Code, add it to your MCP configuration:
   "mcpServers": {
     "web-fetch": {
       "command": "node",
-      "args": ["/path/to/web-fetch-mcp-server/dist/index.js"]
+      "args": ["/path/to/web-fetch-mcp/dist/index.js"]
     }
   }
 }

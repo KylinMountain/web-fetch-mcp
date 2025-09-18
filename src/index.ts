@@ -17,7 +17,7 @@ class WebFetchMCPServer {
   constructor() {
     this.server = new Server(
       {
-        name: 'web-fetch-mcp-server',
+        name: 'web-fetch-mcp',
         version: '1.0.0',
       },
       {
