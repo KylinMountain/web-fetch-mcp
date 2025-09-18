@@ -42,6 +42,8 @@ If you installed the package globally:
 }
 ```
 
+Note: If you encounter network access issues (e.g., unable to connect to Gemini), you can configure the environment variables HTTPS_PROXY and HTTP_PROXY. By default, the gemini-2.5-flash model is used, consistent with Gemini-CLI.
+
 If you are running from a local clone:
 
 ```json
